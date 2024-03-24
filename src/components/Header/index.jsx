@@ -1,5 +1,5 @@
 import { Button } from "../Button";
-import logo from "../../assets/logo-dio.png"
+import logo from "../../assets/logo-dio.png";
 
 import {
   BuscarInputContainer,
@@ -16,9 +16,9 @@ const Header = () => {
     <Wrapper>
       <Container>
         <Row>
-          <img src={logo} alt="Logotipo"/>
+          <img src={logo} alt="Logotipo" />
           <BuscarInputContainer>
-            <Input placeholder="Buscar..."/>
+            <Input placeholder="Buscar..." />
           </BuscarInputContainer>
           <Menu>LiveCode</Menu>
           <Menu>Global</Menu>

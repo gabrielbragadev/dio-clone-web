@@ -10,14 +10,13 @@ export const Container = styled.main`
   justify-content: space-between;
   align-items: center;
 `
-
 export const Title = styled.h2`
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   width: 320px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   line-height: 44px;
 
   color: #FFFFFF;
@@ -33,7 +32,7 @@ export const TextContent = styled.p`
   font-weight: 400;
   font-size: 16px;
   width: 420px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   line-height: 22px;
 
   color: #FFFFFF
