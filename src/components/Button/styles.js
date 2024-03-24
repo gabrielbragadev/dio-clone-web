@@ -2,10 +2,11 @@ import styled, { css } from 'styled-components';
 
 export const ButtonContainer = styled.button`
 background: #565656;
+border: 0;
 border-radius: 22px;
 position: relative;
 
-color: #FFFF;
+color: #FFFFFF;
 padding: 2px 12px;
 min-width: 120px;
 width: 100%;
@@ -15,9 +16,14 @@ ${({variant}) => variant !== "primary" && css`
   height: 33px;
 
   background: #E4105D;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.6;
+  }
 
   &::after{
-    content: '',
+    content: '';
     position: absolute;
     border: 1px solid #E4105D;
     top: -5px;
