@@ -7,7 +7,7 @@ import {
   ImageBackground,
   PostInfo,
   UserInfo,
-  UserPicture,Title
+  UserPicture,
 } from "./styles";
 
 const Card = () => {

@@ -1,12 +1,5 @@
 import { styled } from "styled-components";
 
-export const Title = styled.h1`
-width: 100%;
-color: #FFFFFF;
-position: relative;
-margin-bottom: 24px;
-border-radius: 8px;
-`
 
 export const CardContainer = styled.div`
   width: 100%;

@@ -5,31 +5,35 @@ export const Container = styled.main`
   max-width: 80%;
   margin: 0 auto;
   margin-top: 120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 `
 export const Title = styled.h2`
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 18px;
   width: 320px;
-  margin-bottom: 30px;
-  line-height: 44px;
-
+  margin-bottom: 24px;
+  line-height: 25px;
   color: #FFFFFF;
+  margin-bottom: 24px;
 `
 
-export const TitleHighlight = styled.span`
-  color: #E4105D;
-`
-
-export const TextContent = styled.p`
+export const TitleHighlight = styled.h3`
   font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  width: 420px;
-  margin-bottom: 30px;
-  line-height: 22px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF70;
+  margin-bottom: 24px;
+`
 
-  color: #FFFFFF
+
+export const Column = styled.div`
+  flex: ${({flex}) => flex};
+  padding-right: 24px;
 `
